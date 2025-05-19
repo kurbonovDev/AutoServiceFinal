@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AutoService" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#F5F5F5</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="Theme.AutoService" parent="Base.Theme.AutoService" />
+</resources>

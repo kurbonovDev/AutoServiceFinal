@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.registration.CarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавление автомобиля"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/edBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Марка"
+            android:inputType="textCapWords"
+            android:background="@drawable/background_edittext"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/edModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Модель"
+            android:inputType="textCapWords"
+            android:background="@drawable/background_edittext"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/edYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Год выпуска"
+            android:inputType="number"
+            android:maxLength="4"
+            android:background="@drawable/background_edittext"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnAddCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Добавить"
+            android:backgroundTint="#F84106"
+            android:textColor="@android:color/white"
+            android:padding="12dp"/>
+    </LinearLayout>
+</ScrollView>
